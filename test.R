@@ -3,7 +3,7 @@ library(rtweet)
 
 # Creación Twitter Token
 test_ghactions_twitter_r_token <- rtweet::create_token(
-  app = "test_ghactions_twitter_r",
+  app = "pruebas_api_r",
   consumer_key =    Sys.getenv("TWITTER_API_KEY"),
   consumer_secret = Sys.getenv("TWITTER_API_KEY_SECRET"),
   access_token =    Sys.getenv("TWITTER_ACCESS_TOKEN"),
