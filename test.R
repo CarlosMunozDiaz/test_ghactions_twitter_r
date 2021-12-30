@@ -23,4 +23,7 @@ test_ghactions_twitter_r_token <- rtweet::create_token(
 
 
 #Publicación del tweet
-rtweet::post_tweet(status=paste0('Iniciación a TWITTER API + R + GITHUB ACTIONS. Actualización en la fecha ', Sys.time()))
+rtweet::post_tweet(
+  status=paste0('Iniciación a TWITTER API + R + GITHUB ACTIONS. Actualización en la fecha ', Sys.time()),
+  token=test_ghactions_twitter_r_token
+)
