@@ -2,7 +2,7 @@ name: test_ghactions_twitter_r
 
 on:
   schedule:
-    - cron: '*/15 * * *' #Cada 15 minutos
+    - cron: '*/15 * * * *' #Cada 15 minutos
 
 jobs:
   test_ghactions_twitter_r-post:
